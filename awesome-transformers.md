@@ -45,6 +45,12 @@ Keywords: Database, low-code, AI table
 
 Keywords: LLMs, Large Language Models, Agents, Chains
 
+## [LlamaIndex](https://github.com/jerryjliu/llama_index)
+
+[LlamaIndex](https://github.com/jerryjliu/llama_index) is a project that provides a central interface to connect your LLM's with external data. It provides various kinds of indices and retreival mechanisms to perform different LLM tasks and obtain knowledge-augmented results.
+
+Keywords: LLMs, Large Language Models, Data Retrieval, Indices, Knowledge Augmentation 
+
 ## [ParlAI](https://github.com/facebookresearch/ParlAI)
 
 [ParlAI](https://github.com/facebookresearch/ParlAI) is a python framework for sharing, training and testing dialogue models, from open-domain chitchat, to task-oriented dialogue, to visual question answering. It provides more than 100 datasets under the same API, a large zoo of pretrained models, a set of agents, and has several integrations.
@@ -587,4 +593,17 @@ Keywords: Active Learning, Research, Labeling
 [cleanlab](https://github.com/cleanlab/cleanlab) is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels. For text, image, tabular, audio (among others) datasets, you can use cleanlab to automatically: detect data issues (outliers, label errors, near duplicates, etc), train robust ML models, infer consensus + annotator-quality for multi-annotator data, suggest data to (re)label next (active learning).
 
 Keywords: Data-Centric AI, Data Quality, Noisy Labels, Outlier Detection, Active Learning  
+
+## [BentoML](https://github.com/bentoml/BentoML)
+
+[BentoML](https://github.com/bentoml) is the unified framework for for building, shipping, and scaling production-ready AI applications incorporating traditional ML, pre-trained AI models, Generative and Large Language Models. 
+All Hugging Face models and pipelines can be seamlessly integrated into BentoML applications, enabling the running of models on the most suitable hardware and independent scaling based on usage.
+
+Keywords: BentoML, Framework, Deployment, AI Applications
+
+## [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning)
+
+[LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning) offers a user-friendly fine-tuning framework that incorporates PEFT. The repository includes training(fine-tuning) and inference examples for LLaMA-2, BLOOM, Falcon, Baichuan, Qwen, and other LLMs. A ChatGLM version is also available in [ChatGLM-Efficient-Tuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning).
+
+Keywords: PEFT, fine-tuning, LLaMA-2, ChatGLM, Qwen
 
