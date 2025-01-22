@@ -1154,7 +1154,7 @@ class StaticCache(Cache):
             # Note: `mark_static_address` is used to tag the cache as a fixed data pointer,
             # preventing compiled graph breaks when updating the cache.
             torch._dynamo.mark_static_address(new_layer_key_cache)
-            torch._dynamo.mark_static_address(new_layer_key_cache)
+            torch._dynamo.mark_static_address(new_layer_value_cache)
             self.key_cache.append(new_layer_key_cache)
             self.value_cache.append(new_layer_value_cache)
 
